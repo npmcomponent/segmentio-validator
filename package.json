@@ -1,29 +1,15 @@
 {
-  "name": "validator",
-  "version": "0.0.13",
-  "description": "Validate a value against a set of rules",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "open test/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/segmentio/validator.git"
-  },
+  "name": "segmentio-validator",
+  "description": "Validate a value against a set of rules.",
+  "version": "0.0.12",
   "keywords": [
     "validate",
     "validator"
   ],
-  "author": "Segment.io",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/segmentio/validator/issues"
-  },
   "dependencies": {
-    "each-component": "git://github.com/segmentio/each#0.1.1",
-    "ware": "~0.2.0"
-  }
+    "segmentio-each": "git://github.com/npmcomponent/segmentio-each.git",
+    "timoxley-next-tick": "git://github.com/npmcomponent/timoxley-next-tick.git",
+    "segmentio-ware": "git://github.com/npmcomponent/segmentio-ware.git"
+  },
+  "license": "MIT"
 }

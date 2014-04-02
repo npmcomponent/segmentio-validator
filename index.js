@@ -1,5 +1,5 @@
 
-var ware = require('ware');
+var ware = require('segmentio-ware');
 var each;
 
 /**
@@ -7,7 +7,7 @@ var each;
  */
 
 try {
-  each = require('each');
+  each = require('segmentio-each');
 } catch (err) {
   each = require('each-component');
 }
